@@ -1,0 +1,72 @@
+.search {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.search p {
+    margin: 0;
+}
+
+.dateContainer {
+    display: flex;
+    justify-content: center;
+    margin: 19px;
+    height: 52px;
+}
+
+.searchContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 22px;
+    border-style: none;
+    padding: 12px 12px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+}
+
+.dayPickerContainer {
+    display: flex;
+}
+
+.tagContainer {
+    display: flex;
+}
+
+.tag {
+    position: relative;
+    font-size: 11px;
+    font-weight: bold;
+    top: 7px;
+}
+
+.startTag {
+    left: -275%;
+}
+
+.endTag {
+    right: -10%;
+}
+
+.indexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.exchangeRateContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.icon {
+    height: 120%;
+}

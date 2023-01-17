@@ -1,0 +1,34 @@
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #EEF1FF;
+    color: #251B37;
+    font-weight: 900;
+    font-size: 26px;
+}
+
+.icon {
+    height: 35px;
+    width: 35px;
+}
+
+.contents {
+    display: flex;
+    width: 99%;
+    height: 100%;
+    margin: 3px auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+}
+
+.navigation li + li {
+    margin-left: 30px;
+}

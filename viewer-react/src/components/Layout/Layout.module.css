@@ -1,0 +1,25 @@
+.layout {
+    padding-top: 50px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 100px);
+    position: relative;
+}
+
+.graph {
+    position: absolute;
+    min-height: 61%;
+    width: 100%;
+    background-color: #D2DAFF;
+}
+
+.console {
+    position: absolute;
+    min-height: 39%;
+    top: 61%;
+    width: 100%;
+    background-color: #AAC4FF;
+}
