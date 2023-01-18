@@ -9,7 +9,7 @@
     position: relative;
 }
 
-.graph {
+.display {
     position: absolute;
     min-height: 61%;
     width: 100%;
