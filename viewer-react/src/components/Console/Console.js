@@ -2,11 +2,10 @@ import styles from './Console.module.css';
 import DayPicker from '../DayPicker/DayPicker';
 import Button from '../Button/Button';
 
-const Console = () => {
-    // fetch('http://183.102.138.178:3000/api')
-    //     .then((res) => {
-    //         console.log(res.json());
-    //     });
+const Console = async () => {
+    const res = await fetch('http://183.102.138.178:3000/api');
+    const data = await res.json();
+    console.log(data);
 
     return (
         <div className={styles.search}>
