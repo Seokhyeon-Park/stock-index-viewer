@@ -17,7 +17,7 @@ const Graph = () => {
     }
 
     const showChart = (key) => {
-        fetch('http://183.102.138.178:3000/${key')
+        fetch(`http://183.102.138.178:3000/${key}`)
             .then((res) => res.json())
             .then(async (data) => {
                 const preDataArr = await preProcess(data);
@@ -25,7 +25,7 @@ const Graph = () => {
             });
     }
 
-    showChart('sp')
+    // showChart('sp')
 
     return (
         <div className='chartContainer'>

@@ -14,7 +14,7 @@ const Layout = () => {
                 <Display />
                 </div>
                 
-                <div className={styles.console}>
+                <div id="console" className={styles.console}>
                 <Console />
                 </div>
             </main>
